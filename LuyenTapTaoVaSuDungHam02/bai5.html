@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  function kiemTraMin(a,b,c) {
+    if (a>b&&a>c){
+        return a;
+    }else if (b>c){
+        return b;
+    }else {
+        return c;
+    }
+  }
+  let x = prompt('Nhap so thu nhat : ')
+  let y = prompt('Nhap so thu hai : ')
+  let z = prompt('Nhap so thu ba : ')
+  alert('So lon nhat tron ba so '+x+','+y+','+z+' la : '+kiemTraMin(x,y,z))
+</script>
+</body>
+</html>
